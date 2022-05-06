@@ -4,7 +4,7 @@ def sortNum(num,sortMethod="asc"):
     num = sorted(list(str(num)),key=int,reverse=rev)
     return int("".join(num))
 
-num=input("Enter a 4 digit number. There cannot be three of the same letter the number: ")
+num=input("Enter a 4 digit number. There cannot be three of the same digits the number: ")
 startFNum= sortNum(num,"desc")
 tmpResult = None
 lastResult=None
